@@ -1,0 +1,17 @@
+.one{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.two{
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.three{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;                                             
+}
