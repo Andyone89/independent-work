@@ -57,26 +57,28 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid var(--white);
 }
 
 thead th:nth-child(1) {
     width: 21%;
-  }
-  thead th:nth-child(2) {
+}
+
+thead th:nth-child(2) {
     width: 22%;
-  }
-  thead th:nth-child(3) {
+}
+
+thead th:nth-child(3) {
     width: 21%;
-  }
-  thead th:nth-child(4) {
+}
+
+thead th:nth-child(4) {
     width: 36%;
-  }
+}
 
 th,
 td {
-    
-    padding: 12px ;
+
+    padding: 12px;
     text-align: left;
 }
 
@@ -85,7 +87,7 @@ th {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    
+
 
 }
 
@@ -94,4 +96,11 @@ td {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+}
+
+.wrapper{
+    border: 1px solid;
+    border-radius: 14px;  
+    border-image-source: linear-gradient(152.67deg, #11183C -5.94%, #E7E9F5 55.4%, #343958 82.96%);
+    border-image-slice: 1;
 }
