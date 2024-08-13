@@ -14,18 +14,84 @@ body {
     line-height: 20px;
     margin: 0;
     padding: 0;
-}
-.layout{
     background-color: var(--dark-blue);
     color: var(--white);
 }
 
-.container{
+.layout {}
+
+.container {
     width: 1180px;
-    padding:40px 130px 0px 130px;
-   align-items: center;
+    margin: 0 auto;
 }
 
-.top{
-   
+.head {
+    width: 725px;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 10px 0;
+}
+
+.title__text {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 0 20px;
+}
+
+.Contact {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 0 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--white);
+}
+
+thead th:nth-child(1) {
+    width: 21%;
+  }
+  thead th:nth-child(2) {
+    width: 22%;
+  }
+  thead th:nth-child(3) {
+    width: 21%;
+  }
+  thead th:nth-child(4) {
+    width: 36%;
+  }
+
+th,
+td {
+    
+    padding: 12px ;
+    text-align: left;
+}
+
+th {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+}
+
+td {
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
