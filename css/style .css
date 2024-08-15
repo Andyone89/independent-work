@@ -100,7 +100,24 @@ td {
 
 .wrapper{
     border: 1px solid;
-    border-radius: 14px;  
     border-image-source: linear-gradient(152.67deg, #11183C -5.94%, #E7E9F5 55.4%, #343958 82.96%);
     border-image-slice: 1;
+    border-radius: 14px;  
+}
+
+.contacts__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contacts__items-link{
+    border: 1px solid #1A1F39;
+    width: 1180px;
+    height: 68px;
+    padding: 20px;
+}
+
+.contacts__item-image{
+    padding-right: 15px;
 }
