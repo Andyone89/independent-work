@@ -102,12 +102,14 @@ td {
     border: 1px solid;
     border-image-source: linear-gradient(152.67deg, #11183C -5.94%, #E7E9F5 55.4%, #343958 82.96%);
     border-image-slice: 1;
-    border-radius: 14px;  
+    border-radius: 14px;
+    padding: 12px;  
 }
 
 .contacts__item{
     display: flex;
     flex-direction: column;
+padding: 96px 0;
     
 }
 
@@ -123,5 +125,5 @@ td {
 }
  
 .image__item-vector{
-    
+
 }
