@@ -53,11 +53,25 @@ body {
     padding: 10px 0 20px;
 }
 
-table {
+.wrapper {
+    border: 1px solid;
+    border-image-source: linear-gradient(152.67deg, #11183C -5.94%, #E7E9F5 55.4%, #343958 82.96%);
+    border-image-slice: 1;
+    border-radius: 14px;
+    padding: 12px;
+    margin: 0 auto;
+
+}
+
+
+.table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
+
+
 }
+
 
 thead th:nth-child(1) {
     width: 21%;
@@ -98,14 +112,6 @@ td {
     line-height: 20px;
 }
 
-.wrapper {
-    border: 1px solid;
-    border-image-source: linear-gradient(152.67deg, #11183C -5.94%, #E7E9F5 55.4%, #343958 82.96%);
-    border-image-slice: 1;
-    border-radius: 14px;
-    padding: 12px;
-}
-
 .contacts__item {
     display: grid;
     padding: 96px 0;
@@ -124,7 +130,7 @@ td {
     line-height: 28px;
     text-decoration: none;
     color: var(--white);
-   
+
 }
 
 .contacts__item-image {
@@ -135,5 +141,59 @@ td {
     float: right;
     position: relative;
     top: 8px;
-   
+}
+
+@media (max-width: 1150px) {
+    .wrapper{
+        overflow: auto;
+    }
+    
+    .table {
+        display: block;
+        width: 100%;
+    }
+
+    .table thead,
+    .table tbody,
+    .table thead th {
+        display: block;
+    }
+
+
+
+    .table thead {
+        float: left;
+    }
+
+    .table tbody {
+        overflow-x: auto;
+    }
+
+    .table tbody tr {
+        display: table-cell;
+        border-right: 1px solid #E7E9F5;
+        
+    }
+
+    .table tr:last-child {
+        border-right: none;
+    }
+
+    .table td {
+        display: block;
+        text-align: center;
+    }
+
+    .table td{
+        border-right: none;
+    }
+
+    .table th{
+        display: block;
+        text-align: center;
+    }
+
+    .table tr{
+    } 
+
 }
