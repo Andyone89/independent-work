@@ -143,23 +143,22 @@ td {
     top: 8px;
 }
 
-@media (max-width: 1150px) {
-    .wrapper{
-        overflow: auto;
+@media (max-width: 1200px) {
+    .wrapper {
+        position: absolute;
+        overflow-x: auto;
     }
-    
+
     .table {
-        display: block;
-        width: 100%;
+        white-space: nowrap;
     }
 
     .table thead,
     .table tbody,
     .table thead th {
         display: block;
+
     }
-
-
 
     .table thead {
         float: left;
@@ -172,11 +171,12 @@ td {
     .table tbody tr {
         display: table-cell;
         border-right: 1px solid #E7E9F5;
-        
+
     }
 
     .table tr:last-child {
         border-right: none;
+    
     }
 
     .table td {
@@ -184,16 +184,47 @@ td {
         text-align: center;
     }
 
-    .table td{
+    .table td {
         border-right: none;
     }
 
-    .table th{
+    .table th {
         display: block;
         text-align: center;
     }
 
-    .table tr{
-    } 
+   
+}
 
+@media (max-width: 900px) {
+    .wrapper{
+        width: 100%;
+    } 
+    
+    .table td,
+    .table th
+    .table 
+    {
+        padding: 10px 2px;
+        box-sizing: border-box;
+        overflow: hidden;
+        width: 160px;
+        font-style: 12px;
+        text-overflow: ellipsis;
+    } 
+}
+
+@media (max-width: 750px) {
+
+    .table tr{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .table th, .table td{
+        text-align: center;
+    
+    }
+    .table td {
+        border-right: none;
+    }
 }
