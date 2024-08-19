@@ -20,7 +20,8 @@ body {
 
 
 .container {
-    width: 1180px;
+    width: 100%;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
@@ -129,7 +130,8 @@ td {
 
 .contacts__items-link {
     border: 1px solid var(--blue);
-    width: 1180px;
+    width: 100%;
+    max-width: 1180px;
     height: 68px;
     padding: 20px;
     margin-bottom: 12px;
@@ -205,12 +207,6 @@ td {
 padding-top: 120px;
     }
 
-    .title,
-    .contacts__items-link {
-  width: auto;
-    }
-
-
 }
 
 @media (max-width: 900px) {
@@ -235,6 +231,10 @@ padding-top: 120px;
     .image__item-vector{
         float: right;
     }
+
+    .contacts__items-link {
+        width: 100%;
+        max-width: 1180px;
 
 
 }
